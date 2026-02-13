@@ -48,6 +48,14 @@ const config: Config = {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
+        gold: {
+          DEFAULT: 'hsl(var(--gold))',
+          light: 'hsl(var(--gold-light))',
+        },
+        prussian: {
+          DEFAULT: 'hsl(var(--prussian))',
+          deep: 'hsl(var(--prussian-deep))',
+        },
         chart: {
           '1': 'hsl(var(--chart-1))',
           '2': 'hsl(var(--chart-2))',
@@ -70,16 +78,6 @@ const config: Config = {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
-      },
-      colors: {
-        gold: {
-          DEFAULT: 'hsl(var(--gold))',
-          light: 'hsl(var(--gold-light))',
-        },
-        prussian: {
-          DEFAULT: 'hsl(var(--prussian))',
-          deep: 'hsl(var(--prussian-deep))',
-        },
       },
       keyframes: {
         'accordion-down': {
