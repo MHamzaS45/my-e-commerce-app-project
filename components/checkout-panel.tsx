@@ -157,7 +157,7 @@ export function CheckoutPanel({ onBack }: CheckoutPanelProps) {
             <div className="flex items-center gap-4 mb-4 pb-4 border-b border-border">
               <div className="relative w-16 h-16 rounded-lg bg-secondary flex-shrink-0 overflow-hidden">
                 <Image
-                  src="/images/product-headphones.jpg"
+                  src="/images/product-headphones.png"
                   alt="AURA Pro headphones in cart"
                   fill
                   className="object-contain p-1.5"

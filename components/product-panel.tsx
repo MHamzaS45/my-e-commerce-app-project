@@ -43,7 +43,7 @@ export function ProductPanel({ onBuyNow }: ProductPanelProps) {
           <div className="relative border border-border rounded-2xl bg-card p-8 w-full max-w-sm">
             <div className="relative w-full aspect-square max-w-[280px] mx-auto">
               <Image
-                src="/images/product-headphones.jpg"
+                src="/images/product-headphones.png"
                 alt="AURA Pro headphones product view"
                 fill
                 className="object-contain"
