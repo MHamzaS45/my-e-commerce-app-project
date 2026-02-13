@@ -29,7 +29,7 @@ export function Navbar({ currentView, onNavigate }: NavbarProps) {
             <span className="text-xs font-bold text-accent-foreground">A</span>
           </div>
           <span className="text-sm font-semibold tracking-wide text-foreground">
-            AURA
+            AUR
           </span>
         </button>
 
@@ -39,11 +39,10 @@ export function Navbar({ currentView, onNavigate }: NavbarProps) {
             <button
               key={view}
               onClick={() => onNavigate(view)}
-              className={`relative px-3.5 py-1.5 text-[13px] font-medium rounded-md transition-colors duration-200 ${
-                currentView === view
+              className={`relative px-3.5 py-1.5 text-[13px] font-medium rounded-md transition-colors duration-200 ${currentView === view
                   ? "text-foreground bg-secondary"
                   : "text-muted-foreground hover:text-foreground"
-              }`}
+                }`}
               aria-current={currentView === view ? "page" : undefined}
             >
               {label}
