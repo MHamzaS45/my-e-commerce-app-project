@@ -80,7 +80,7 @@ export function HeroPanel({ onExplore, onBuyNow }: HeroPanelProps) {
             <div className="relative animate-float">
               <div className="relative w-72 h-72 lg:w-[380px] lg:h-[380px]">
                 <Image
-                  src="/images/product-headphones.png"
+                  src="/images/product-headphones.jpg"
                   alt="AURA Pro wireless headphones"
                   fill
                   className="object-contain drop-shadow-2xl"
