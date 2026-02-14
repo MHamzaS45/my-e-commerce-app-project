@@ -26,7 +26,7 @@ export function HeroPanel({ onExplore, onBuyNow }: HeroPanelProps) {
 
           <h1 className="text-5xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-foreground text-balance">
             Sound, <br />
-            <span className="text-accent">reimagined.</span>
+            <span className="text-accent bg-transparent">reimagined.</span>
           </h1>
 
           <p className="text-base text-muted-foreground leading-relaxed max-w-md">
