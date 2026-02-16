@@ -36,6 +36,9 @@ export default function Page() {
 
   return (
     <main className="h-screen w-screen overflow-hidden relative bg-background">
+      {/* Hexagon pattern */}
+      <div className="fixed inset-0 pointer-events-none hexagon-pattern" />
+      
       {/* Subtle radial glow */}
       <div className="fixed inset-0 pointer-events-none bg-[radial-gradient(ellipse_80%_50%_at_50%_-10%,hsla(210,100%,60%,0.08),transparent_60%)]" />
 
