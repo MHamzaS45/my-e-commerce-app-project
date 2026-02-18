@@ -2,6 +2,9 @@
 
 A modern, single-page e-commerce experience for **AURA Pro** wireless headphones. Built with Next.js and a polished UI featuring hero, product, and checkout flows with smooth view transitions.
 
+<img width="1280" height="614" alt="image" src="https://github.com/user-attachments/assets/93c36da4-3f05-44f2-9b72-82d27f30837b" />
+
+
 ---
 
 ## Overview
