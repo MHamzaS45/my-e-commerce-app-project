@@ -1,0 +1,33 @@
+import type { Metadata, Viewport } from 'next'
+import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
+import './globals.css'
+
+const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+
+export const metadata: Metadata = {
+  title: 'AURA | Premium Audio',
+  description: 'Experience sound like never before with AURA Pro wireless headphones.',
+}
+
+export const viewport: Viewport = {
+  themeColor: '#0a0a0a',
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" className={_inter.variable}>
+      <body className="font-sans antialiased overflow-hidden">
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
+    </html>
+  )
+}
