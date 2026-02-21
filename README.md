@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Due to recent updates with Vercel and its Stripe integration, certain features will not work as expected. An updated version is being worked on, and will be pushed in an upcoming deployment.  
+
 # AURA | Premium Audio
 
 A modern, single-page e-commerce experience for **AURA Pro** wireless headphones. Built with Next.js and a polished UI featuring hero, product, and checkout flows with smooth view transitions.
